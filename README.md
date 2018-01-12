@@ -38,6 +38,7 @@ ggplot(data=pop.income.counts) +
   geom_bar(mapping=aes(x=income, y=counts), stat="identity")
 # stat="identity": It wants to compute stuff, so you need to tell it to just plot the value (identity)
 
+
 #in case I still get to turn the number of events into a ration of events/population
 #making population data variable and backup
 pop_data=read.csv('useful_pop_data.csv')
